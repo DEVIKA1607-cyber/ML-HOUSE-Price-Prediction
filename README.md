@@ -77,6 +77,28 @@ print("Predicted Price:", predicted_price)
 Predicts price for given area input.
 <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/d89dcee9-5a77-4f03-a925-a8fda12001d9" />
 
+## Example
+
+If input is:
+
+Area = 1200 sq.ft
+
+Bedrooms = 3
+
+Location = City Center
+
+ Model predicts: ₹75 Lakhs (example)
+
+## Advantages
+
+Saves time in price estimation
+
+Reduces human error
+
+Helps in investment decisions
+
+Useful for real estate companies
+
 ## Result
 This project shows how Machine Learning can be used to predict values from data. 
 Linear Regression is easy to understand and useful for basic data analytics problems.
