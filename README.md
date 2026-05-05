@@ -5,8 +5,19 @@ REG NO: 212224100010
 ## Title
 House Price Prediction using Machine Learning
 
-## About
+## Introduction
 This project predicts house prices based on area using Linear Regression.
+House Price Prediction is a popular machine learning project where we use data (like location, size, number of rooms, etc.) to predict the price of a house. It helps buyers, sellers, and real estate companies make better decisions.
+
+## Objective
+
+The main objectives of this project are:
+
+To predict house prices accurately based on different features.
+To analyze factors that affect house prices (e.g., location, area, number of bedrooms).
+To apply machine learning algorithms to real-world data.
+To build a model that can estimate prices automatically.
+To improve decision-making in the real estate sector.
 
 ## Technology Used
 - Python
@@ -42,6 +53,25 @@ Predict the corresponding price
 
 Step 8: Display Result
 Print the predicted price
+
+## Code
+
+import numpy as np
+from sklearn.linear_model import LinearRegression
+
+# Step 1: Input data (Area vs Price)
+area = np.array([500, 1000, 1500, 2000]).reshape(-1, 1)
+price = np.array([100000, 200000, 300000, 400000])
+
+# Step 2: Create model
+model = LinearRegression()
+model.fit(area, price)
+
+# Step 3: Predict price for new area
+predicted_price = model.predict([[1200]])
+
+# Step 4: Output
+print("Predicted Price:", predicted_price)
 
 ## Output
 Predicts price for given area input.
