@@ -143,6 +143,6 @@ Helps in investment decisions
 
 Useful for real estate companies
 
-## Result
+## Conclusion
 This project shows how Machine Learning can be used to predict values from data. 
 Linear Regression is easy to understand and useful for basic data analytics problems.
