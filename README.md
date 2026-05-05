@@ -77,6 +77,50 @@ print("Predicted Price:", predicted_price)
 Predicts price for given area input.
 <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/d89dcee9-5a77-4f03-a925-a8fda12001d9" />
 
+## Machine Learning Approach
+
+Step-by-step process:
+
+Data Collection
+
+Collect housing data from datasets (CSV, Kaggle, etc.)
+
+Data Preprocessing
+
+Handle missing values
+
+Convert categorical data (like location) into numbers
+
+Normalize/scale data if needed
+
+Feature Selection
+
+Choose important features that influence price
+
+Model Selection
+
+# Common algorithms:
+
+Linear Regression (most common)
+
+Decision Tree
+
+Random Forest
+
+Gradient Boosting
+
+Model Training
+
+Train the model using training data
+
+Model Testing
+
+Test accuracy using test data
+
+Prediction
+
+Predict house prices for new inputs
+
 ## Example
 
 If input is:
